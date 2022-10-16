@@ -1,0 +1,29 @@
+body {
+    max-width: 100vw;
+    position: relative;
+}
+
+.table {
+    max-width: 90vw;
+    margin: 0 auto;
+    border: 1px grey solid;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 20px;
+}
+
+.table__header {
+    border: 1px grey solid;
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.form__container {
+    border: 1px grey solid;
+    position: absolute;
+}
