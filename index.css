@@ -27,3 +27,7 @@ body {
     border: 1px grey solid;
     position: absolute;
 }
+
+input {
+    border:2px blue solid;
+}
